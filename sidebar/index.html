@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+  <link href="/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#"><img src="images/logo.png" height="auto" class="img-responsive"></a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+        <ul class="navbar-nav navbar-right s">
+          <li class="nav-item">
+          <a class="" href="#">About EPI</a>
+        </li>
+        <li class="nav-item">
+          <a class="" href="#">Responsibility</a>
+        </li>
+        <li class="nav-item">
+          <a class="" href="#">Innovation</a>
+        </li>
+        <li class="nav-item">
+          <a class="active" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="" href="#"><i class="material-icons">search</i></a>
+        </li>
+        </ul>
+      </div> 
+    </nav>
+  </div>
+
+ <!-- First Section --> 
+  
+  <section class="alt-bg">
+  
+    <img src="/images/full.png" style="z-index: 999;">
+    <div>
+    <h2>Discover EPI</h2>
+    <hr style="background-color: white">
+    <p>Pioneering of the manufacture of high quality medical devices and <br>pharmaceutial products aimed at improving the livelihoods <br>and the healthcare systems in Africa.</p>
+    </div>
+  </section>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Start Bootstrap </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+       
+      </nav>
+
+      <div class="container-fluid">
+        <h1 class="col">Simple Sidebar</h1>
+        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
+        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+        <a id="menu-toggle" href="#">toggle menu</a>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- our own JS -->
+  <script src="/js/scripts.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
