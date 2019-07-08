@@ -1,23 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro|Montserrat:300&display=swap');
 body{
-    text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: #9d9c9a;
+    text-align: left;
+    font-family: 'Maven Pro', sans-serif;
+    color: #333366;
 }
 h1{
-    
-    font-weight: normal;
-    color: #9a9998;
-    text-transform: uppercase;
-}
-h2{
-	font-family: 
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     color:  #0099cc;
 }
-h2 span{
+h2{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color:  #0099cc;
+}/*
+h2 span, h1 span{
 	font-weight: bold;
-}
+}*/
 .navbar{
 	padding-bottom: 30px;
 }
@@ -61,38 +62,31 @@ a.active{
 section{
 	padding: 4%;
 }
-.first{
-	/*background-color: #f5f2ed;*/
-	/*background:linear-gradient(12deg, #f5f2ed 100px , #153454 1em );*/
-	/*min-height: 20%;*/
-	/*position: relative;*/
-	/*padding: 0%;*/
-}
 .hero{
 	padding: 0%;
 }
 .hero img{
 	/*background-image: url(../images/banner.jpg);*/
 	height: auto;
-	width: 100%;
-	/*margin-left:0%;
-	margin-top: -40px;
-	margin-bottom: -5%;
-	*//*min-width: 500px;
-	position: center;
-    bottom: 20%;
-    right: 20%;
-    margin-top: -7em;
-    min-margin-top:1px;*/
-   
+	width: 100%;   
+}
+
+.first{
+	text-align: left;
+	font-size: larger;
+}
+.first img{
+	width:100%;
+	max-height: 300px;
 }
 .alt-bg div{
 	padding-bottom: 2%;
 }
 hr{
 	border: none;
-	width: 100px;
-	height: 3px;
+	width: 100%;
+	height: 1px;
+	padding: 0%;
 	background-color: #f0ece3;
 	margin-bottom: 3%;
 }
@@ -107,42 +101,22 @@ hr{
 	 margin-left: 15%;
 	
 }
-.products{
-	text-align:center;
+.product h1{
+	padding-bottom: 5%;
+}
+.product p{
+	padding-left: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.product img{
+	/*max-height: 400px;*/
+	max-width: 100%;
+}
+.product p{
+	margin-bottom: 0;
+}
 
-}
-.products .row{
-	column-gap: 40px;	
-	position:relative;
-	text-align: center;
-	display: inline-flex;
-	max-width: 930px;
-	/*margin-left: 5%;*/
-	margin: auto;
-}
-.products .card{
-	background-color: #f0ece3;
-	border-radius: 0px;
-	border-width: 0px;
-	border: 0px;
-	margin:0px;
-	width:30%;
-	max-width:400px;
-	min-width: 300px;
-	text-align: left;
-
-}
-.card-img-top{
-	width: 100%;
-
-}
-.card-title{
-	padding:10%;
-}
-.products .card-alt{
-	background-color: #00acc8;	
-	color: white;
-}
 .btn{
 	border-radius: 25px;
 	/*for hovering transitioin*/
