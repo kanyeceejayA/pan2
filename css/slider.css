@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro|Montserrat:300&display=swap');
+
+.heros{
+	background-image: url(../images/banner.jpg);
+    padding: 0%;
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+.heros img{
+	height: auto;
+	width: 100%;   
+}
+.product .col-md-6{
+	transition: transform .5s; /* Animation */
+    margin: 0 auto;
+
+}
+.product .col-md-6:hover{
+	transform: scale(1.02) ;
+}
