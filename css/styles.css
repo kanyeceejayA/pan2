@@ -11,9 +11,12 @@ h1{
     text-transform: uppercase;
 }
 h2{
+	font-family: 
     font-weight: normal;
-    text-transform: uppercase;
-    color:  #9a9998;
+    color:  #0099cc;
+}
+h2 span{
+	font-weight: bold;
 }
 .navbar{
 	padding-bottom: 30px;
@@ -58,21 +61,24 @@ a.active{
 section{
 	padding: 4%;
 }
-.alt-bg{
-	background-color: #f5f2ed;
+.first{
+	/*background-color: #f5f2ed;*/
 	/*background:linear-gradient(12deg, #f5f2ed 100px , #153454 1em );*/
-	min-height: 20%;
-	position: relative;
+	/*min-height: 20%;*/
+	/*position: relative;*/
+	/*padding: 0%;*/
+}
+.hero{
 	padding: 0%;
 }
-
-.alt-bg img{
+.hero img{
+	/*background-image: url(../images/banner.jpg);*/
 	height: auto;
 	width: 100%;
-	margin-left:0%;
+	/*margin-left:0%;
 	margin-top: -40px;
 	margin-bottom: -5%;
-	/*min-width: 500px;
+	*//*min-width: 500px;
 	position: center;
     bottom: 20%;
     right: 20%;
